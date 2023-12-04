@@ -21,10 +21,6 @@ public class CarDaoImpl implements CarDao {
         cars.add(new Car("Porsche", "911", 4));
     }
 
-    @Override
-    public List<Car> getAllCars() {
-        return cars;
-    }
 
     @Override
     public List<Car> getAllCars(Integer count) {
